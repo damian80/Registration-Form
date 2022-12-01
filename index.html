@@ -12,13 +12,20 @@
 		<p>Please fill out this form with the required information</p>
 		<form action="https://register-demo.freecodecamp.org" method="post">
 			<fieldset>
-				<label for="">Enter your first name:</label>
-				<label for="">Enter your last name:</label>
-				<label for="">Enter your email:</label>
-				<label for="">Create a New Password:</label>
+				<label for=""
+					>Enter your first name: <input type="text" required
+				/></label>
+				<label for=""
+					>Enter your last name: <input type="text" required
+				/></label>
+				<label for="">Enter your email: <input type="email" required /></label>
+				<label for=""
+					>Create a New Password: <input type="password" minlength="8" required
+				/></label>
 			</fieldset>
 			<fieldset></fieldset>
 			<fieldset></fieldset>
+			<input type="submit" value="Submit" />
 		</form>
 	</body>
 </html>
